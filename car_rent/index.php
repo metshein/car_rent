@@ -80,7 +80,7 @@ $valjund = mysqli_query($yhendus, $paring);
     <?php
 while($rida = mysqli_fetch_row($valjund)){ 
     ?>
-    <!-- kaart -->
+    <!-- kaart --> 
     <div class="col-sm-3">
       <div class="card my-2" style="width: 19rem;">
         <img src="https://picsum.photos/600/350" class="card-img-top" alt="auto">
@@ -100,9 +100,7 @@ while($rida = mysqli_fetch_row($valjund)){
       </div>
     </div>
     <!-- /kaart -->
-   <?php
-}
-    ?>
+   <?php } ?>
 
  </div>
 <!-- leheküljenumbrid -->
