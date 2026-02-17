@@ -1,4 +1,4 @@
-# 🚗 Autorendi projekt – Tegevusetapid
+# 🚗 Autorendi projekt – tegevusetapid
 
 1. **Loo frontend disain**
 
