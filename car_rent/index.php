@@ -60,7 +60,7 @@
             <button class="btn btn-dark">Vaata autosid</button>
           </div>
           <div class="col-sm-6">
-            <img class="image-fluid" src="https://picsum.photos/600/250" alt="autopilt">
+            <img class="image-fluid" src="https://loremflickr.com/600/250/mustang" alt="autopilt">
           </div>
         </div>
       </div>
@@ -68,7 +68,10 @@
 <!-- /hero -->
 
 <?php
-$paring = 'SELECT * FROM cars LIMIT 8'; 
+$otsi = "audi";
+$paring = 'SELECT * FROM cars'; 
+$paring .= ' WHERE mark LIKE "%'.$otsi.'%"';
+$paring .= ' LIMIT 8';
 $valjund = mysqli_query($yhendus, $paring);
 // var_dump($valjund);
 
@@ -83,7 +86,7 @@ while($rida = mysqli_fetch_row($valjund)){
     <!-- kaart --> 
     <div class="col-sm-3">
       <div class="card my-2" style="width: 19rem;">
-        <img src="https://picsum.photos/600/350" class="card-img-top" alt="auto">
+        <img src="https://loremflickr.com/600/350/<?php echo $rida[1]; ?>" class="card-img-top" alt="auto">
         <div class="card-body">
           <div class="row">
             <div class="col"><h5 class="card-title"><?php echo $rida[1]; ?></h5></div>
