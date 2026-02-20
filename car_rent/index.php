@@ -42,7 +42,7 @@
 
       </ul>
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Otsi..." aria-label="Search"/>
+        <input class="form-control me-2" type="search" placeholder="Otsi..." aria-label="Search" name="search">
         <button class="btn btn-outline-secondary" type="submit"><i class="bi bi-search"></i></button>
       </form>
     </div>
@@ -68,9 +68,14 @@
 <!-- /hero -->
 
 <?php
-$otsi = "audi";
+
 $paring = 'SELECT * FROM cars'; 
-$paring .= ' WHERE mark LIKE "%'.$otsi.'%"';
+
+if (isset($_GET["search"])) {
+  $otsi = $_GET["search"];
+  $paring .= ' WHERE mark LIKE "%'.$otsi.'%"';
+}
+
 $paring .= ' LIMIT 8';
 $valjund = mysqli_query($yhendus, $paring);
 // var_dump($valjund);
@@ -79,6 +84,25 @@ $valjund = mysqli_query($yhendus, $paring);
 
 <!-- autode kaardid -->
  <div class="container">
+
+  <?php
+  // Alert kast, kui autot ei leitud
+    if ($result=mysqli_query($yhendus,$paring)){
+      $rowcount=mysqli_num_rows($result);
+      if ($rowcount == 0) {
+       echo '
+       <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        Otsitud autot ei leitud
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+       ';
+      }
+    }
+  ?>
+
+
+
+
   <div class="row">
     <?php
 while($rida = mysqli_fetch_row($valjund)){ 
