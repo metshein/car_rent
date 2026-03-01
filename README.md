@@ -21,4 +21,7 @@
 
 8. **Täienda ja loo joonisel olevad andmebaasitabelid**
 
+
 9. **Klient saab lisada oma andmed, lisada päevade arvu, kontrollitakse saadavust ja lisatakse broneering**
+
+10. ![frontend](https://github.com/metshein/car_rent/blob/main/car_rent/ylesanne05-2048x1335.png?raw=true)
