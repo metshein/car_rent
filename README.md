@@ -1,4 +1,4 @@
-# Autorendi projekt – idee\* ja tegevusetapid
+# Autorendi projekt – idee\- ja tegevusetapid
 
 ## Projekti eesmärk ja reeglid
 
