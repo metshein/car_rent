@@ -119,7 +119,7 @@ Tulemus: autode tabel kuvab rohkem andmeid
 
 ## Etapp 6 – Admin: autode lisamine (CRUD-i algus)
 
-Eesmärk: lihtne "lisa auto" vorm
+Eesmärk: autode haldusliides
 
 Tee:
 
