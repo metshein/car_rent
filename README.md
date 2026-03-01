@@ -30,7 +30,7 @@ Tee:
 
 - Navbar: Avaleht, Autod, Hinnad, Kontakt + otsingukast
 - Hero-plokk: vasakul tekst + nupp, paremal suur pilt
-- Autokaardid gridis (4 veergu desktopis, 2 tahvlis, 1 mobiilis)
+- Autokaardid gridis (4 veergu desktopis, 1 mobiilis)
 - Lisa pagination (veel "võlts", ainult välimus)
 
 Tulemus:
