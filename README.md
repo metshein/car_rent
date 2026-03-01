@@ -30,8 +30,8 @@ Tee:
 
 - Navbar: Avaleht, Autod, Hinnad, Kontakt + otsingukast
 - Hero-plokk: vasakul tekst + nupp, paremal suur pilt
-- Autokaardid gridis (4 veergu desktopis, 2 tahvlis, 1 mobiilis)
-- Lisa pagination (veel "võlts", ainult välimus)
+- Autokaardid gridis (4 veergu desktopis, 1 mobiilis)
+- Lisa pagination
 
 Tulemus:
 ![frontend](https://github.com/metshein/car_rent/blob/main/car_rent/ylesanne05-2048x1335.png?raw=true)
@@ -119,7 +119,7 @@ Tulemus: autode tabel kuvab rohkem andmeid
 
 ## Etapp 6 – Admin: autode lisamine (CRUD-i algus)
 
-Eesmärk: lihtne "lisa auto" vorm
+Eesmärk: autode haldusliides
 
 Tee:
 
