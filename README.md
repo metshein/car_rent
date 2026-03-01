@@ -124,8 +124,11 @@ Eesmärk: lihtne "lisa auto" vorm
 Tee:
 
 - `admin/index.php` (adminil oma menüü)
+  ![admin vaade](https://github.com/metshein/car_rent/blob/main/car_rent/admin.jpg?raw=true)
+
 - `admin/add_car.php` vorm
-- `admin/save_car.php`
+  ![lisa auto](https://github.com/metshein/car_rent/blob/main/car_rent/insert_car.jpg?raw=true)
+
 - pärast salvestust suunatakse tagasi admin avalehele
 - lisa kustutamine
 - lisa muutmine
