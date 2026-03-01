@@ -97,6 +97,7 @@ Tee:
 - Kuvad suure pildi, nime, mootori, kütuse, hinna
 
 Tulemus: klikitav detailvaade olemas
+![singlecar](singel_car.jpg)
 
 ---
 
