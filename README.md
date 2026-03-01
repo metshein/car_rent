@@ -97,7 +97,7 @@ Tee:
 - Kuvad suure pildi, nime, mootori, kütuse, hinna
 
 Tulemus: klikitav detailvaade olemas
-![singlecar](singel_car.jpg)
+![singlecar](https://github.com/metshein/car_rent/blob/main/car_rent/singel_car.jpg)
 
 ---
 
