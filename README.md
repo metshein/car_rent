@@ -31,7 +31,7 @@ Tee:
 - Navbar: Avaleht, Autod, Hinnad, Kontakt + otsingukast
 - Hero-plokk: vasakul tekst + nupp, paremal suur pilt
 - Autokaardid gridis (4 veergu desktopis, 1 mobiilis)
-- Lisa pagination (veel "võlts", ainult välimus)
+- Lisa pagination
 
 Tulemus:
 ![frontend](https://github.com/metshein/car_rent/blob/main/car_rent/ylesanne05-2048x1335.png?raw=true)
