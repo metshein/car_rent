@@ -103,7 +103,7 @@ Tulemus: klikitav detailvaade olemas
 
 ## Etapp 5 – Cars tabeli laiendamine
 
-Eesmärk: adnmebaasi tabeli muutmine
+Eesmärk: andmebaasi tabeli muutmine
 
 Lisa `cars` tabelisse täiendus:
 
