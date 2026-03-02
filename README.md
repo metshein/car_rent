@@ -113,6 +113,8 @@ Lisa `cars` tabelisse täiendus:
 - `description`
 - `status` (nt `vaba`, `rendidud`, `hoolduses`)
 
+Loo Mocaroos uued andmed ja täienda olemasolevat tabelit:
+https://www.geeksforgeeks.org/mysql/update-one-table-with-another-tables-values-in-mysql/
 Tulemus: autode tabel kuvab rohkem andmeid
 
 ---
