@@ -100,9 +100,6 @@ $valjund = mysqli_query($yhendus, $paring);
     }
   ?>
 
-
-
-
   <div class="row">
     <?php
 while($rida = mysqli_fetch_row($valjund)){ 
