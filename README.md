@@ -128,7 +128,7 @@ Tee:
 - `admin/index.php` (adminil oma menüü)
   ![admin vaade](https://github.com/metshein/car_rent/blob/main/car_rent/admin.jpg?raw=true)
 
-- `admin/add_car.php` vorm
+- `admin/add_car.php` vorm (täienda enda andmebaasiga)
   ![lisa auto](https://github.com/metshein/car_rent/blob/main/car_rent/insert_car.jpg?raw=true)
 
 - pärast salvestust suunatakse tagasi admin avalehele
