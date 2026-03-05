@@ -1,3 +1,4 @@
+<?php include("config.php"); ?>
 <!doctype html>
 <html lang="et">
 <head>
@@ -33,6 +34,14 @@
 
 <!-- SISU -->
 <div class="container my-5">
+
+<?php
+$paring = "SELECT * FROM cars WHERE id=102";
+$valjund = mysqli_query($yhendus, $paring);
+$rida = mysqli_fetch_array($valjund);
+print_r($rida);
+?>
+
 
   <div class="card shadow-sm">
     <div class="row g-0">
