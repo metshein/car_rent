@@ -1,17 +1,15 @@
 <?php
+    // Sinu andmed
+    $db_server = 'localhost';
+    $db_andmebaas = 'car_rent';
+    $db_kasutaja = 'mario';
+    $db_salasona = 'mario';
 
-// Andmebaasi ühenduse andmed
-$db_server = 'localhost';
-$db_andmebaas = 'car_rent';
-$db_kasutaja = 'mario';
-$db_salasona = 'mario';
+    // Ühendus andmebaasiga
+    $yhendus = mysqli_connect($db_server, $db_kasutaja, $db_salasona, $db_andmebaas);
 
-// Ühenduse loomine
-$yhendus = new mysqli($db_server, $db_kasutaja, $db_salasona, $db_andmebaas);
-
-// Ühenduse kontroll
-if (!$yhendus) {
-    die('Ei saa ühendust andmebaasiga');
-}
-
+    // Ühenduse kontroll
+    if (!$yhendus) {
+        die('Ei saa ühendust andmebaasiga');
+    }
 ?>

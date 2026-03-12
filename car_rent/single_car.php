@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php include("config.php"); ?>
 <!doctype html>
 <html lang="et">
@@ -82,3 +83,5 @@ print_r($rida);
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+=======
+>>>>>>> dc56c4a543364bacd3559061ea382881fdb23cf7
