@@ -164,7 +164,7 @@ Lisa tabelid:
 - `reservations` (seob kasutaja + auto + kuupäevad)
 
 Tee:
-
+- lisa leht, kus kasutaja saab ennast registreerida
 - `auto.php` lehele lihtne broneeringuvorm: algus ja lõpp (DATE)
 - "Arvuta koguhind": päevade arv × price_per_day
 - Salvesta `reservations` tabelisse
